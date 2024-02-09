@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowUnreachableCode": false,
+    "lib": ["ES2021"],
+    "module": "CommonJS",
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "./out",
+    "removeComments": true,
+    "rootDir": "src",
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2019"
+  },
+  "exclude": ["node_modules", "out"]
+}
